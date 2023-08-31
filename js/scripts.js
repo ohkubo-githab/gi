@@ -48,6 +48,7 @@ window.addEventListener('DOMContentLoaded', event => {
             if (window.getComputedStyle(navbarToggler).display !== 'none') {
                 navbarToggler.click();
             }
+            window.confirm(”クリックされました”)
         });
     });
 
